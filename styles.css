@@ -24,8 +24,10 @@ body {
   padding: 10px;
   text-align: center;
   margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
-
 .sidebar h3 {
   font-size: 14px;
   margin-bottom: 5px;
