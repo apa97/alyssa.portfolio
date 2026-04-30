@@ -96,6 +96,12 @@ body {
   gap: 40px;
 }
 
+.project-title {
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+}
+
 .project-img {
   width: 300px;
   height: 180px;
@@ -153,6 +159,7 @@ body {
 
 .hero img {
   width: 450px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .project-desc {
