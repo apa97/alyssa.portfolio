@@ -12,19 +12,23 @@
 <body>
 
   <!-- SIDEBAR -->
-  <div class="sidebar">
+ <div class="sidebar">
     <a href="index.html" class="logo">AP</a>
     
     <h3>Alyssa Pacamarra</h3>
-    <p>Student in Web and Mobile Development and UX/UI</p>
+    <p>Student in Web and Mobile Development<br/>and UX/UI</p>
 
     <div class="nav-links">
-      <a href="index.html">All Featured Projects</a>
-      <a href="project1.html">Mindful Moments</a>
-      <a href="project2.html">Munchie</a>
-      <a href="about.html">About Me</a>
-      <a href="resume.html">Resume</a>
+      <a href="index.html" class="main-link">All Featured Projects</a>
+      <a href="project1.html" class="main-link">Mindful Moments</a>
+      <a href="project2.html" class="main-link">Munchie</a>
+
+      <div class="nav-spacer"></div>
+
+      <!-- <a href="about.html" class="secondary-link">About Me</a> -->
+      <a href="resume.html" class="secondary-link">Resume</a>
     </div>
+    
   </div>
 
   <!-- MAIN -->
@@ -34,13 +38,18 @@
 
     <!-- HERO -->
     <div class="hero">
-      <img src="mindful.png" alt="Mindful Moments">
+      <img src="mindfulmoments.png" alt="Mindful Moments">
     </div>
 
     <!-- DESCRIPTION -->
     <p class="project-desc">
-      Mindful Moments is a mobile application designed to help users build and sustain mindfulness habits 
-      through journaling and reflection in a calm, low-pressure experience.
+      Mindful Moments is a mobile application designed to help users build 
+      and maintain mindfulness habits through daily reflection and journaling. 
+      Many mindfulness apps can overwhelm users with notifications, complex 
+      features, or performance tracking, which can create stress or guilt 
+      when users miss a day. Mindful Moments takes a different approach: it 
+      provides a calm, minimal space for reflection that encourages 
+      mindfulness without pressure or distraction.
     </p>
 
     <!-- INFO -->
@@ -57,16 +66,30 @@
     <section class="section">
       <h3>Identifying the Problem</h3>
       <p>
-        Many mindfulness apps overwhelm users with notifications and complex tracking systems,
-        making it harder to maintain consistent habits.
+        Mindfulness and meditation apps often add stress instead of reducing it. 
+        Excessive features, notifications, and performance tracking can make 
+        users feel guilty or pressured if they skip a day or fail to meet goals. 
+        This can discourage continued practice, especially for beginners or users 
+        who want a gentle, mindful experience. 
+      </br></br>
+        The challenge was to design a mobile app that supports mindfulness habits 
+        without overwhelming users, offering a calm and simple space for reflection 
+        rather than performance tracking or distraction.
       </p>
     </section>
 
     <section class="section">
       <h3>Design Approach</h3>
       <p>
-        The app focuses on simplicity and emotional comfort. The interface avoids pressure,
-        encouraging users to engage naturally.
+        Because mindfulness apps are often used during moments of vulnerability or 
+        emotional awareness, it was essential that the design feel calm, unobtrusive, 
+        and supportive. I intentionally avoided cluttered layouts and unnecessary 
+        features, focusing instead on a clean interface that allows users to journal 
+        and reflect with ease. The visual design uses soft, calming colors and gentle 
+        contrast, while typography and spacing were carefully chosen to enhance 
+        readability and reduce cognitive tension. Every design decision was guided by 
+        the goal of creating a peaceful, intentional experience rather than a 
+        productivity-focused tool.
       </p>
     </section>
 
@@ -81,7 +104,16 @@
     <section class="section">
       <h3>Development & Implementation</h3>
       <p>
-        Built using React Native, focusing on smooth interactions and a clean UI structure.
+        The app was implemented in React Native, where I built core functionality 
+        including journaling input, navigation between sections, and local data storage. 
+        I developed reusable UI components for buttons, input fields, and cards, 
+        maintaining a consistent interface across the app. Iterative testing on mobile 
+        devices using Expo Go ensured responsive layouts and smooth interactions. 
+        Debugging and performance refinements were handled with React Native Debugger 
+        and console logs.
+      </br></br>  
+        Technical skills demonstrated: React Native, JavaScript, mobile UI design, 
+        component architecture, state management, Expo Go testing, debugging.
       </p>
     </section>
 
@@ -93,21 +125,57 @@
     <section class="section">
       <h3>Outcome</h3>
       <p>
-        The final product provides a calm and supportive experience for users building mindfulness habits.
+        The final prototype demonstrates a thoughtful approach to mindfulness and mobile 
+        UI development. Mindful Moments offers a simple, intentional journaling experience 
+        that encourages daily reflection without overwhelming users with notifications or 
+        analytics. The app successfully balances functionality and simplicity, providing a 
+        gentle environment for building mindfulness habits.
       </p>
     </section>
 
     <section class="section">
       <h3>Challenges</h3>
       <p>
-        Balancing minimal design while still providing meaningful functionality was a key challenge.
+        One of the main challenges was finding the right balance between functionality 
+        and simplicity. It was tempting to add reminders, analytics, or social features, 
+        but these would have detracted from the app’s core purpose of calm reflection. 
+        Another challenge was maintaining a consistent emotional tone throughout the 
+        interface. Every design decision, from typography to spacing, needed to support 
+        calmness and clarity rather than efficiency or performance.
       </p>
     </section>
 
     <section class="section">
       <h3>Reflection</h3>
       <p>
-        This project strengthened my ability to design with empathy and focus on user-centered experiences.
+        This project strengthened my skills in React Native development, mobile UI 
+        design, and interaction design. It reinforced the importance of empathy and 
+        emotional awareness in digital experiences, showing how design and development 
+        choices can support users’ mental and emotional states. I learned how to turn 
+        prototypes into functional apps while maintaining a thoughtful, user-centered 
+        approach, and gained confidence in building mobile experiences that are both 
+        technically sound and emotionally supportive.
+      </p>
+    </section>
+
+    <section class="section">
+      <h3>What I'd Do Differentlly</h3>
+      <p>
+        Looking back on Mindful Moments, there are a few areas I would approach 
+        differently in future projects. First, I would incorporate more structured 
+        user testing earlier in the development process to catch usability issues 
+        before implementing core functionality. While I iteratively tested the app 
+        on mobile devices, early testing with real users could have provided deeper 
+        insights into journaling behaviours and emotional interactions.
+      </br></br>  
+        Second, I would explore optional features that maintain simplicity, such as 
+        gentle reminders or customizable reflection prompts, giving users more 
+        flexibility without overwhelming them. Lastly, I would consider building a 
+        lightweight backend or cloud sync for journaling entries, allowing users to 
+        access their reflections across devices, while keeping the core experience 
+        minimal and distraction-free. These changes would enhance the app’s usability 
+        and accessibility, while still respecting the calm, intentional experience at 
+        the heart of Mindful Moments.
       </p>
     </section>
 

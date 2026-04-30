@@ -1,4 +1,4 @@
-/* PROJECT ROW LAYOUT */
+/* PROJECT ROW */
 .project {
   display: flex;
 }
@@ -24,7 +24,7 @@
   height: 150px;
 }
 
-/* HERO CENTERING (layout-only) */
+/* HERO CENTERING */
 .hero {
   display: flex;
   justify-content: center;

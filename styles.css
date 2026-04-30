@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
 body {
@@ -14,41 +14,61 @@ body {
 .sidebar {
   position: fixed;
   left: 40px;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
-  width: 200px;
+  width: 300px;
 }
 
 .logo {
-  border: 1px solid #333;
-  padding: 10px;
+  font-family: 'Allura', cursive;
+  font-size: 38px;
+  letter-spacing: -3px;
+  border: 3px solid #9C7F62;
+  padding: 10px 25px 10px 20px;
+  display: inline-block;
+
   text-align: center;
   margin-bottom: 20px;
-  display: block;
   text-decoration: none;
   color: inherit;
+  border-radius: 0px 15px 0px 15px;
 }
+
 .sidebar h3 {
-  font-size: 14px;
+  font-size: 17px;
   margin-bottom: 5px;
 }
 
 .sidebar p {
-  font-size: 12px;
+  font-size: 14px;
   color: #666;
   margin-bottom: 20px;
 }
 
 .nav-links a {
-  display: block;
+  color: black;
   text-decoration: none;
-  color: #333;
+  display: block;
   margin: 10px 0;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  color: #9C7F62;
+}
+
+.main-link {
+  font-weight: 700;
+  color: #9C7F62;
+}
+
+.secondary-link {
+  font-weight: 400;
+  color: black;
+}
+
+.nav-spacer {
+  height: 2px;
 }
 
 /* MAIN */
@@ -65,11 +85,11 @@ body {
 
 .intro p {
   color: #666;
-  max-width: 600px;
+  max-width: 750px;
   margin-bottom: 60px;
 }
 
-/* PROJECTS (non-layout styling only) */
+/* PROJECTS */
 .project {
   align-items: center;
   margin-bottom: 60px;
@@ -83,10 +103,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .project-img img {
-  max-width: 80%;
+  max-width: 100%;
+  border-radius: 5px;
+
 }
 
 .project-content h3 {
@@ -102,7 +125,8 @@ body {
 }
 
 .btn {
-  border: 1px solid #7b61ff;
+  border: 1px solid #9C7F62;
+  border-radius: 3px;
   padding: 8px 16px;
   font-size: 12px;
   background: none;
@@ -111,13 +135,14 @@ body {
 }
 
 .btn:hover {
-  background: #7b61ff;
+  background: #9C7F62;
   color: white;
 }
 
-/* PROJECT PAGE (non-layout parts) */
+/* PROJECT PAGE */
 .project-page {
-  max-width: 900px;
+  max-width: 750px;
+  margin-left: 25em;
 }
 
 .hero {
@@ -127,7 +152,7 @@ body {
 }
 
 .hero img {
-  width: 400px;
+  width: 450px;
 }
 
 .project-desc {
@@ -143,147 +168,10 @@ body {
 
 .section h3 {
   margin-bottom: 10px;
-}* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
-body {
-  display: flex;
-  background: #f7f7f7;
-}
-
-/* SIDEBAR */
-.sidebar {
-  position: fixed;
-  left: 40px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 200px;
-}
-
-.logo {
-  border: 1px solid #333;
-  padding: 10px;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.sidebar h3 {
-  font-size: 14px;
-  margin-bottom: 5px;
-}
-
-.sidebar p {
-  font-size: 12px;
-  color: #666;
-  margin-bottom: 20px;
-}
-
-.nav-links a {
-  display: block;
-  text-decoration: none;
-  color: #333;
-  margin: 10px 0;
-  font-size: 14px;
-}
-
-.nav-links a:hover {
-  text-decoration: underline;
-}
-
-/* MAIN */
-.main {
-  margin-left: 300px;
-  padding: 80px 60px;
-  width: 100%;
-}
-
-.intro h1 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-
-.intro p {
-  color: #666;
-  max-width: 600px;
-  margin-bottom: 60px;
-}
-
-/* PROJECTS (non-layout styling only) */
-.project {
-  align-items: center;
-  margin-bottom: 60px;
-  gap: 40px;
-}
-
-.project-img {
-  width: 300px;
-  height: 180px;
-  background: #eaeaea;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.project-img img {
-  max-width: 80%;
-}
-
-.project-content h3 {
-  font-size: 16px;
-  margin-bottom: 10px;
-}
-
-.project-content p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 15px;
-  max-width: 400px;
-}
-
-.btn {
-  border: 1px solid #7b61ff;
-  padding: 8px 16px;
-  font-size: 12px;
-  background: none;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.btn:hover {
-  background: #7b61ff;
-  color: white;
-}
-
-/* PROJECT PAGE (non-layout parts) */
-.project-page {
-  max-width: 900px;
-}
-
-.hero {
-  margin: 30px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.hero img {
-  width: 400px;
-}
-
-.project-desc {
-  max-width: 700px;
-  margin: 20px 0;
-  color: #666;
-}
-
-.section {
-  margin: 40px 0;
-  max-width: 700px;
-}
-
-.section h3 {
-  margin-bottom: 10px;
+/* RESUME PAGE */
+.resume img {
+  margin-left: 30em;
+  width: 600px;
 }
