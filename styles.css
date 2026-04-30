@@ -119,12 +119,12 @@ body {
 }
 
 .project-content h3 {
-  font-size: 16px;
+  font-size: 15px;
   margin-bottom: 10px;
 }
 
 .project-content p {
-  font-size: 14px;
+  font-size: 13px;
   color: #666;
   margin-bottom: 15px;
   max-width: 400px;
@@ -149,6 +149,11 @@ body {
 .project-page {
   max-width: 750px;
   margin-left: 25em;
+  font-size: 14px;
+}
+
+.project-page h4 {
+  padding-bottom: 5px;
 }
 
 .hero {
@@ -181,6 +186,40 @@ body {
 .resume img {
   margin-left: 30em;
   width: 600px;
+}
+
+.img-box {
+  background: #ddd;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-box.small {
+  height: 260px;  
+  grid-column: auto;
+}
+
+.img-box.medium {
+  height: 255px;
+  width: 585px;  
+  grid-column: auto;
+}
+
+
+
+.img-box.large {
+  height: 650px;  
+  grid-column: auto;
 }
 
 ul {
