@@ -209,13 +209,22 @@ body {
   grid-column: auto;
 }
 
+.img-box.small-long {
+  height: 100px;
+  width: 620px;
+}
+
 .img-box.medium {
   height: 255px;
   width: 585px;  
   grid-column: auto;
 }
 
-
+.img-box.medium-mm {
+  height: 305px;
+  width: 625px;  
+  grid-column: auto;
+}
 
 .img-box.large {
   height: 650px;  
