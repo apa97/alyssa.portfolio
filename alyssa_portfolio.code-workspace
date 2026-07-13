@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../alyssa_portfolio"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "alyssa.portfolio"
+	}
+}
